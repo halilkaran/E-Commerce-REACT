@@ -17,12 +17,7 @@ font-weight: 500;
 
 
 const Annoucement = () => {
-  return (
-      <Container>
-          Last Deal! Free Shipping on Orders Overs $50
+  return <Container>Last Deal! Free Shipping on Orders Overs $50</Container>;
+};
 
-   </Container>
-  )
-}
-
-export default Annoucement
+export default Annoucement;
