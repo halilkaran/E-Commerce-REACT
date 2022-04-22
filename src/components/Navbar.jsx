@@ -2,7 +2,7 @@ import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
-import {mobile} from "../responsive"
+import mobile from "../responsive"
 const Container = styled.div`
   height: 60px;
 ${mobile({height:"50px"})}
@@ -52,7 +52,7 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  ${mobile({ justifyContent: "center"})}
+  ${mobile({ flex:2, justifyContent: "center"})}
 `;
 
 const MenuLink = styled.div`
